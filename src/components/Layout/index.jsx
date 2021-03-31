@@ -1,9 +1,6 @@
 import React from 'react';
 
-import { Box } from '@chakra-ui/react';
-import { Flex } from '@chakra-ui/react';
-import { Image } from '@chakra-ui/react';
-import { Link } from '@chakra-ui/react';
+import { Box, Flex, Image, Link } from '@chakra-ui/react';
 
 function Layout() {
   return (
@@ -23,8 +20,8 @@ function Layout() {
             <Link href="/" mr={4}>
               Home
             </Link>
-            <Link href="/about" mr={4}>
-              About
+            <Link href="/articles" mr={4}>
+              Articles
             </Link>
             <Link href="/contacts" mr={4}>
               Contacts
